@@ -18,3 +18,8 @@ select ename,deptno from emp where deptno in (20,50);
 --query 6.
 
 select ename,job from emp where mgr is null;
+
+--query 7.
+
+select ename'||sal||','||comm||','||deptno "THE_OUTPUT" from emp;
+
